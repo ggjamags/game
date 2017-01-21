@@ -613,15 +613,15 @@
         <SubFolders />
         <UnloadedRooms>
           <UnloadedRoom>
+            <Number>0</Number>
+            <Description IsNull="True" />
+          </UnloadedRoom>
+          <UnloadedRoom>
             <Number>1</Number>
             <Description IsNull="True" />
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>2</Number>
-            <Description IsNull="True" />
-          </UnloadedRoom>
-          <UnloadedRoom>
-            <Number>3</Number>
             <Description>Labyrinthe</Description>
           </UnloadedRoom>
         </UnloadedRooms>
@@ -630,7 +630,46 @@
     <GUIs>
       <GUIFolder Name="Main">
         <SubFolders />
-        <GUIs />
+        <GUIs>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>150</Height>
+              <Width>450</Width>
+              <Left>50</Left>
+              <Top>50</Top>
+              <Clickable>True</Clickable>
+              <Visibility>Normal</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>0</ID>
+              <Name>gGui1</Name>
+            </NormalGUI>
+            <Controls>
+              <GUISlider>
+                <OnChange />
+                <HandleImage>0</HandleImage>
+                <HandleOffset>0</HandleOffset>
+                <BackgroundImage>0</BackgroundImage>
+                <MinValue>0</MinValue>
+                <MaxValue>3</MaxValue>
+                <Value>0</Value>
+                <Height>39</Height>
+                <Locked>False</Locked>
+                <Width>290</Width>
+                <Left>46</Left>
+                <Top>29</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Slider1</Name>
+              </GUISlider>
+            </Controls>
+          </GUIMain>
+        </GUIs>
       </GUIFolder>
     </GUIs>
     <InventoryItems>
@@ -959,12 +998,12 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>0</Image>
+        <Image>1</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
-        <Name>Usermode1</Name>
+        <Name>Jauge</Name>
       </MouseCursor>
       <MouseCursor>
         <ID>9</ID>
