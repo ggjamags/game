@@ -1431,14 +1431,15 @@
         <Name>Music</Name>
 	<!-- commentaire -->
         <TypeID>2</TypeID>
+        <Name>Music</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Sound</Name>
         <TypeID>3</TypeID>
+        <Name>Sound</Name>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
