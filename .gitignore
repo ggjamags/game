@@ -1,0 +1,15 @@
+# AGS Specific files to ignore
+/GGJ/Compiled
+backup_acsprset.spr
+*.bak
+*.lock
+*.user
+acsetup.cfg
+
+# Seen on AGS forums
+Compiled/
+_Debug/
+_OpenInEditor.lock
+Game.agf.bak
+Game.agf.user
+backup_acsprset.spr
