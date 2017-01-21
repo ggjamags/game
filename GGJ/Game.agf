@@ -856,8 +856,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>1</StartingRoom>
-            <StartX>108</StartX>
-            <StartY>670</StartY>
+            <StartX>124</StartX>
+            <StartY>719</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
@@ -1330,12 +1330,12 @@
                 <Sprites>
                   <Sprite Slot="3" Width="246" Height="149" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>Ressources/Sprites/Blop/Colère1.png</FileName>
+                      <FileName>Ressources/Sprites/Blop/Colï¿½re1.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="4" Width="246" Height="149" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>Ressources/Sprites/Blop/Colère2.png</FileName>
+                      <FileName>Ressources/Sprites/Blop/Colï¿½re2.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="5" Width="246" Height="149" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
