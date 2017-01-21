@@ -614,7 +614,7 @@
         <UnloadedRooms>
           <UnloadedRoom>
             <Number>0</Number>
-            <Description IsNull="True" />
+            <Description>D�but</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>1</Number>
@@ -647,7 +647,7 @@
               <BackgroundColor>0</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
               <ID>0</ID>
-              <Name>gGui1</Name>
+              <Name>gJauge</Name>
             </NormalGUI>
             <Controls>
               <GUISlider>
@@ -855,9 +855,9 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>1</StartingRoom>
-            <StartX>124</StartX>
-            <StartY>719</StartY>
+            <StartingRoom>0</StartingRoom>
+            <StartX>108</StartX>
+            <StartY>670</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
